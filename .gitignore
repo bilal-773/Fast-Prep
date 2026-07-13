@@ -1,0 +1,50 @@
+# Local environment variables
+.env
+.env*.local
+fast-exam-app/.env
+.env.example
+
+# Private resources and documents
+all_questions.json
+app_features_demo.webp
+university-entry-test-app-prompt.md
+
+# Node dependencies
+node_modules/
+fast-exam-app/node_modules/
+
+# Production builds
+dist/
+dist-ssr/
+build/
+fast-exam-app/dist/
+
+# Netlify build artifacts
+.netlify/
+fast-exam-app/.netlify/
+
+# IDE and Editor files
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python environment & cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+ENV/
+env/
+*.log
